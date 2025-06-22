@@ -63,7 +63,7 @@ public class Validacao
         return true;
     }
 
-    // Valida o ano de nascimento (mesma lógica da idade, mas sem calcular a idade)
+    // Valida o ano de nascimento
     public static bool ValidaAnoNascimento(int ano)
     {
         int idade = DateTime.Now.Year - ano;
