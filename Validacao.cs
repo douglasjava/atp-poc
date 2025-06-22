@@ -1,6 +1,6 @@
 public class Validacao
 {
-    // ✅ Valida a idade com base no ano de nascimento
+    // Valida a idade com base no ano de nascimento
     public static int ValidaIdade(int ano)
     {
         int idade = DateTime.Now.Year - ano;
@@ -14,7 +14,7 @@ public class Validacao
         }
     }
 
-    // ✅ Valida o nome
+    // Valida o nome
     public static bool ValidaNome(string nome)
     {
         if (string.IsNullOrWhiteSpace(nome))
@@ -37,7 +37,7 @@ public class Validacao
         return true;
     }
 
-    // ✅ Valida o email
+    // Valida o email
     public static bool ValidaEmail(string email)
     {
         if (string.IsNullOrWhiteSpace(email))
@@ -63,7 +63,7 @@ public class Validacao
         return true;
     }
 
-    // ✅ Valida o ano de nascimento (mesma lógica da idade, mas sem calcular a idade)
+    // Valida o ano de nascimento (mesma lógica da idade, mas sem calcular a idade)
     public static bool ValidaAnoNascimento(int ano)
     {
         int idade = DateTime.Now.Year - ano;
